@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cq-dongbao-generator" />
+        <module name="cq-dongbao-job" />
+        <module name="cq-dongbao-pay-api" />
+        <module name="cq-dongbao-ums" />
+        <module name="cq-dongbao-sms" />
+        <module name="cq-dongbao-common-util" />
+        <module name="cq-dongbao-pms" />
+        <module name="cq-dongbao-common-base" />
+        <module name="cq-dongbao-dictionary-api" />
+        <module name="cq-dongbao-oms" />
+        <module name="cq-dongbao-cart-api" />
+        <module name="cq-dongbao-oms-api" />
+        <module name="cq-dongbao-sms-api" />
+        <module name="cq-dongbao-portal-web" />
+        <module name="cq-dongbao-cart" />
+        <module name="cq-dongbao-cms-api" />
+        <module name="cq-dongbao-pms-api" />
+        <module name="cq-dongbao-pay" />
+        <module name="cq-dongbao-manager-web" />
+        <module name="cq-dongbao-cms" />
+        <module name="cq-dongbao-dictionary" />
+        <module name="cq-dongbao-ums-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cq-dongbao-cart" options="-parameters" />
+      <module name="cq-dongbao-cart-api" options="-parameters" />
+      <module name="cq-dongbao-cms" options="-parameters" />
+      <module name="cq-dongbao-cms-api" options="-parameters" />
+      <module name="cq-dongbao-common-base" options="-parameters" />
+      <module name="cq-dongbao-common-util" options="-parameters" />
+      <module name="cq-dongbao-dictionary" options="-parameters" />
+      <module name="cq-dongbao-dictionary-api" options="-parameters" />
+      <module name="cq-dongbao-generator" options="-parameters" />
+      <module name="cq-dongbao-job" options="-parameters" />
+      <module name="cq-dongbao-manager-web" options="-parameters" />
+      <module name="cq-dongbao-oms" options="-parameters" />
+      <module name="cq-dongbao-oms-api" options="-parameters" />
+      <module name="cq-dongbao-pay" options="-parameters" />
+      <module name="cq-dongbao-pay-api" options="-parameters" />
+      <module name="cq-dongbao-pms" options="-parameters" />
+      <module name="cq-dongbao-pms-api" options="-parameters" />
+      <module name="cq-dongbao-portal-web" options="-parameters" />
+      <module name="cq-dongbao-sms" options="-parameters" />
+      <module name="cq-dongbao-sms-api" options="-parameters" />
+      <module name="cq-dongbao-ums" options="-parameters" />
+      <module name="cq-dongbao-ums-api" options="-parameters" />
+    </option>
+  </component>
+</project>

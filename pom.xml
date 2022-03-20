@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.cq</groupId>
+    <artifactId>cq-dongbao-mall-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.1</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <modules>
+        <module>cq-dongbao-api</module>
+        <module>cq-dongbao-service</module>
+        <module>cq-dongbao-application</module>
+        <module>cq-dongbao-application/cq-dongbao-job</module>
+        <module>cq-dongbao-generator</module>
+        <module>cq-dongbao-common</module>
+    </modules>
+    <packaging>pom</packaging><!--父项目使用pom 也可以使用jar 和war-->
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <!--            <version>1.18.22</version>-->
+            <!--            <scope>provided</scope>-->
+        </dependency>
+    </dependencies>
+</project>
+
