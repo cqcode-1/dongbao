@@ -1,7 +1,7 @@
 package com.cq.dongbao.ums.service.impl;
 
-import com.cq.dongbao.ums.entity.vo.UmsMemberLoginParamDTO;
-import com.cq.dongbao.ums.entity.vo.UmsMemberRegisterParamDTO;
+import com.cq.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
+import com.cq.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
 import com.cq.dongbao.ums.service.UmsMemberService;
 import com.cq.dongbao.ums.entity.UmsMember;
 import com.cq.dongbao.ums.mapper.UmsMemberMapper;

@@ -2,8 +2,8 @@ package com.cq.dongbao.ums.service;
 
 import com.cq.dongbao.ums.entity.UmsMember;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.cq.dongbao.ums.entity.vo.UmsMemberLoginParamDTO;
-import com.cq.dongbao.ums.entity.vo.UmsMemberRegisterParamDTO;
+import com.cq.dongbao.ums.entity.dto.UmsMemberLoginParamDTO;
+import com.cq.dongbao.ums.entity.dto.UmsMemberRegisterParamDTO;
 
 /**
  * <p>

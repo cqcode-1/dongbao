@@ -12,8 +12,8 @@ public class ResultWarpper<T> {
     String message;
     T data;
 
-    public static ResultWarpper getSuccess(){
-        return ResultWarpper.builder().code(StateCodeEnum.SUCCESS.getCode()).message(StateCodeEnum.SUCCESS.getMessage()).build();
+    public static ResultWarpper.ResultWarpperBuilder getSuccess(){
+        return ResultWarpper.builder().code(StateCodeEnum.SUCCESS.getCode()).message(StateCodeEnum.SUCCESS.getMessage());
     }
 
     public static ResultWarpper getFailed(){
